@@ -716,17 +716,31 @@
                         <ul class="account__menu">
                             <li class="account__menu--list"><a href="my-account.html">Orders</a></li>
                             <li class="account__menu--list active"><a href="my-account-2.html">Addresses</a></li>
+                            <li class="account__menu--list"><a href="account-settings.html">Account Settings</a></li>
                             <li class="account__menu--list"><a href="login.html">Log Out</a></li>
                         </ul>
                     </div>
                     <div class="account__wrapper">
-                        <h2 class="account__content--title h3 mb-20 border-bottom pb-5">Adresses</h2>
-
-                        <div class="d-flex align-items-center justify-content-between">
-                            <h1 class="fs-4 m-0 p-0">Salam Agadir</h1>
-
-                            <div class="align-items-center justify-content-between">
-
+                        <div class="account__content">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h2 class="account__content--title h3 mb-20">Addresses</h2>
+                                <button class="new__address--btn btn mb-25" type="button">Add new address</button>
+                            </div>
+                            
+                            <div class="align-items-center justify-content-between border-top pt-4">
+                                <div class="d-flex align-items-center justify-content-between p-0 rounded-3">
+                                    <div class="account__details two">
+                                        <h3 class="account__details--title h4 fw-bold fs-4">Salam Agadir</h3>
+                                    </div>
+                                    <label class="switch">
+                                        <input type="checkbox" />
+                                        <span></span>
+                                    </label>
+                                    <div class="account__details--footer align-items-center d-flex">
+                                        <button class="account__details--footer__btn text-sm" type="button">Edit</button>
+                                        <button class="account__details--footer__btn text-sm" type="button">Delete</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
